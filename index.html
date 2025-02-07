@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Decodificador de Textos</h2>
+        <div class="container-input">
+            <textarea id="inputText" placeholder="Digite um texto para codificar/decodificar"></textarea>
+        </div>
+
+        <div class="container-buttons">
+            <button onclick="codificarTexto()">Codificar</button>
+            <button onclick="decodificarTexto()">Decodificar</button>
+        </div>
+    </div>
+
+    <div class="container-result">
+        <h3>Resultado:</h3>
+        <div class="container-input2">
+            <textarea id="outputText" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
